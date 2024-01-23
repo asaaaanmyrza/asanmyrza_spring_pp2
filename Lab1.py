@@ -102,24 +102,23 @@ x = complex(x)
 x=('Hello World!')
 print(len(x))
 
-## 
+## 2
 
+txt = "Hello World"
+x = txt[0]
 
+## 3
 
-## 
+txt = "Hello World"
+x = txt[2:5] ## от второго индекса до четвертого, пятый не в счет
 
+## 4
 
+txt = "Hello World"
+x = txt.strip()
 
-## 
+## 5
 
+txt = "Hello World"
+x = txt.upper()
 
-
-## 
-
-
-
-## 
-
-
-
-## 
