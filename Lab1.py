@@ -19,6 +19,16 @@ written in
 more than just one line
 """
 
+
+
+
+
+
+
+
+
+
+
 ## Variables 1
 
 carname = 'Volvo'
@@ -54,6 +64,13 @@ def myfunc():
   global x 
   x = "fantastic"
 
+
+
+
+
+
+
+
 ## Data types 1
 
 int (10)
@@ -82,6 +99,12 @@ dict ({"name" : "John", "age" : 36}) #Список где у каждого эл
 
 bool (True) #Логическое отрицание или подтверждение
 
+
+
+
+
+
+
 ## Numbers 1
 
 x = 5
@@ -96,6 +119,13 @@ x = int(x)
 
 x = 5
 x = complex(x)
+
+
+
+
+
+
+
 
 ## Strings 1
 
