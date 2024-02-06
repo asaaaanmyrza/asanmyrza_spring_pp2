@@ -77,172 +77,69 @@ def has_007(nums):
 print(has_007([0, 1, 5, 0, 0, 0, 7, 7, 0]))
 print(" ")
 
-#
-
-
-
-
-
-
-#
-
-
-
-#
-
-
-
-#
-
-
-
-#
-
-
-
-#
-
-
-
-
-
-
-#
-
-
-
-#
-
-
-
-#
-
-
-
-#
-
-
-
-#
-
-
-
-
-
-
-#
-
-
-
-#
-
-
-
-#
-
-
-
-#
-
-
-
-#
-
-
-
-
-
-
-#
-
-
-
-#
-
-
-
-#
-
-
-
-#
-
-
-
-#
-
-
-
-
-
-
-#
-
-
-
-#
-
-
-
-#
-
-
-
-#
-
-
-
-#
-
-
-
-
-
-
-#
-
-
-
-#
-
-
-
-#
-
-
-
-#
-
-
-
-#
-
-
-
-
-
-
-#
-
-
-
-#
-
-
-
-#
-
-
-
-#
-
-
-
-#
-
-
-
-
-
-
-
+# 9
+
+print("Task 9")
+
+import math
+def vol(r):
+    return 4/3 * math.pi * r *r *r
+def square(r):
+    return 4 * math.pi * r *r
+
+
+print("Volume: ", vol(5))
+print("Square: ", square(5))
+print(" ")
+
+# 10
+
+print("Task 10")
+def unique(lisst):
+    lissst=[]
+    lisst.sort()
+    for i in range(0,len(lisst)-1):
+        if(lisst[i]!=lisst[i+1]):
+            lissst.append(lisst[i])
+    lissst.append(lisst[len(lisst)-1])
+    return lissst
+print(unique([1, 1, 1, 1, 1, 1]))
+print(" ")
+
+# 11
+
+print("Task 11")
+def palindrome(word):
+    result = True
+    for i in range(0,int(len(word)/2)):
+        if(word[i]!=word[len(word)-1-i]):
+            result = False
+            break
+    return result
+print(palindrome("aaaanaaaa"))
+print(" ")
+
+# 12
+
+print("Task 12")
+def histogram(nums):
+    stars = ""
+    for i in range(0,len(nums)):
+        for j in range(0,nums[i]):
+            stars = stars + "*"
+        print(stars)
+        stars=""
+histogram([3, 10, 20])
+print(" ")
+
+# 13
+
+print("Task 13")
+
+print(" ")
+
+# 14
+
+print("Task 14")
+
+print(" ")
