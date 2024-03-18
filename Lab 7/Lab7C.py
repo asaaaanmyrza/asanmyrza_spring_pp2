@@ -1,12 +1,12 @@
 import pygame as pg
 import datetime
 pg.init()
-size = [500, 500]
+size = [520, 520]
 screen = pg.display.set_mode(size)
 clock = pg.time.Clock()
 
-XC = 250
-YC = 250
+XC = 260
+YC = 260
 cords = [XC, YC]
 
 fill_color = 255, 255, 255
@@ -23,13 +23,13 @@ while running:
             running = False
         elif event.type == pg.KEYUP:
             if event.key == pg.K_UP:
-                if(YC > 40): YC-=20
+                if(YC > 20): YC-=20
             if event.key == pg.K_DOWN:
-                if(YC < 460): YC+=20
+                if(YC < 500): YC+=20
             if event.key == pg.K_RIGHT:
-                if(XC < 460): XC+=20
+                if(XC < 500): XC+=20
             if event.key == pg.K_LEFT:
-                if(XC > 40): XC-=20
+                if(XC > 20): XC-=20
     pg.display.flip()
     clock.tick(30)
 
