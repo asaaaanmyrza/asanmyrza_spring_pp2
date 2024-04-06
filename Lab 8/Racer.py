@@ -97,7 +97,7 @@ while running:
     if(liney1 == 600): liney1= 0
 
 
-    enemyy+=5
+    enemyy+=10
     if(enemyy==670): 
         enemyx= random.randint(70, 390)
         enemyy=-70
@@ -107,9 +107,9 @@ while running:
 
     keys = pg.key.get_pressed()
     if keys[pg.K_LEFT]:
-        if(playerx > 70): playerx-=4
+        if(playerx > 70): playerx-=5
     if keys[pg.K_RIGHT]:
-        if(playerx < 390): playerx+=3
+        if(playerx < 390): playerx+=5
     if keys[pg.K_UP]:
         if(playery > 200): playery-=3
     if keys[pg.K_DOWN]:
